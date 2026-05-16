@@ -1,0 +1,22 @@
+{
+  "name": "discord-economy-bot",
+  "version": "2.0.0",
+  "description": "Discord Economy Bot FULL — Hunt, Zoo, Gambling, VIP, Admin System",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "lint": "node --check index.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": ["discord", "bot", "economy", "hunt", "zoo", "gambling"],
+  "dependencies": {
+    "discord.js": "^14.15.3",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
